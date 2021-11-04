@@ -1,3 +1,4 @@
 # from src.sum import sum
-
-print(sum(2,3))
+import src.sum as add
+# print(sum(2,3))
+print(add.sum(2,3) )
